@@ -1,4 +1,4 @@
-##S QL Portfolio
+## SQL Portfolio
 
 Welcome to my SQL portfolio! This repository contains a collection of SQL projects that I have completed as part of my learning journey. Each project includes a description of the problem statement, the data used, the SQL queries written to solve the problem, and the results obtained.
 
