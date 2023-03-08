@@ -1,0 +1,32 @@
+--Create a Coffee Shop inventory database 
+
+CREATE TABLE Coffee_Shop (id INTEGER, drink TEXT, price INTEGER, size_options INTEGER, oat_milk TEXT);
+
+INSERT INTO Coffee_Shop VALUES (1, "macchiato", 4.00, 3, "No");
+INSERT INTO Coffee_Shop VALUES (2, "mocha", 6.50, 3, "Yes");
+INSERT INTO Coffee_Shop VALUES (3, "latte", 5.50, 3, "Yes");
+INSERT INTO Coffee_Shop VALUES (4, "java chip frappucino", 7.69, 3, "Yes");
+INSERT INTO Coffee_Shop VALUES (5, "peppermint mocha", 7.30, 3, "Yes");
+INSERT INTO Coffee_Shop VALUES (6, "white mocha", 7.30, 3, "Yes");
+INSERT INTO Coffee_Shop VALUES (7, "espresso", 3.12, 1, "No");
+INSERT INTO Coffee_Shop VALUES (8, "espresso con panna", 4.50, 1, "No");
+INSERT INTO Coffee_Shop VALUES (9, "water", 2.00, 1, "No");
+INSERT INTO Coffee_Shop VALUES (10, "sparkling water", 3.49, 3, "Yes");
+INSERT INTO Coffee_Shop VALUES (11, "vanilla latte", 6.59, 3, "Yes");
+INSERT INTO Coffee_Shop VALUES (12, "caramel macchiato", 7.00, 3, "Yes");
+INSERT INTO Coffee_Shop VALUES (13, "vanilla bean frappucino", 7.00, 3, "Yes");
+INSERT INTO Coffee_Shop VALUES (14, "americano", 3.15, 3, "No");
+INSERT INTO Coffee_Shop VALUES (15, "cold brew", 4.99, 3, "No");
+
+
+-- Display the data ordered by price.
+SELECT * from Coffee_Shop ORDER BY price;
+
+--What is the average price of all drinks?
+SELECT ROUND(AVG(price)) "Average Price of All Drinks" FROM Coffee_shop;
+
+-- How many drinks does the coffee shop sell? 
+SELECT COUNT(drink) "Number of Drinks" FROM Coffee_shop;
+
+-- How many drinks come with oat milk? 
+SELECT COUNT(CASE WHEN oat_milk = "Yes" THEN 1 END) "Drinks with Oat Milk?" FROM Coffee_shop; 
