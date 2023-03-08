@@ -5,8 +5,7 @@ Welcome to my SQL portfolio! This repository contains a collection of SQL projec
 ## Projects
 Here is a list of projects included in this portfolio:
 
-**
-- Project 1: Analysis of Coffee Shop Inventory**
+- Project 1: Analysis of Coffee Shop Inventory
 
 Each project is organized into its own folder, with a separate README file containing more details about the project.
 
