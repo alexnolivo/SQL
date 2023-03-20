@@ -7,16 +7,13 @@ Here is a list of projects included in this portfolio:
 
 - Project 1: [Analysis of Coffee Shop Inventory](https://github.com/alexnolivo/SQL/commit/b3eae395d05b1b64510ecd42903b3cf257874e6c)
 
-Each project is organized into its own folder, with a separate README file containing more details about the project.
+You can find each project in its own folder. 
 
 ## Tools Used
 - MySQL Workbench
 - SQLite
 - PostgreSQL
 - Microsoft SQL Server
-
-## How to Run the Projects
-To run the projects in this portfolio, you will need to have a SQL database management system installed. Each project folder contains a SQL script file that you can use to create the necessary database tables and populate them with data. You can then run the SQL queries to analyze the data and answer the project questions.
 
 ## Conclusion
 I hope you find my SQL portfolio useful and informative. If you have any questions or feedback, please feel free to contact me: **alexandranolivo@gmail.com**
