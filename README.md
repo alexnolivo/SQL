@@ -6,6 +6,7 @@ Welcome to my SQL portfolio! This repository contains a collection of SQL projec
 Here is a list of projects included in this portfolio:
 
 - Project 1: [Analysis of Coffee Shop Inventory](https://github.com/alexnolivo/SQL/commit/b3eae395d05b1b64510ecd42903b3cf257874e6c)
+- Project 2: [Analysis of Dinosaur Data](https://github.com/alexnolivo/SQL/blob/main/Dinosaur-Data)
 
 You can find each project in its own folder. 
 
@@ -14,6 +15,7 @@ You can find each project in its own folder.
 - SQLite
 - PostgreSQL
 - Microsoft SQL Server
+- BigQuery
 
 ## Conclusion
 I hope you find my SQL portfolio useful and informative. If you have any questions or feedback, please feel free to contact me: **alexandranolivo@gmail.com**
