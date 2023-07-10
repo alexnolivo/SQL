@@ -1,0 +1,14 @@
+SELECT
+  Dinosaur_Name,
+  INITCAP(REGEXP_REPLACE(Name_Meaning, r'[^A-Za-z0-9\s]', '')) AS Name_Meaning,
+  INITCAP(Diet) AS Diet, 
+  When_it_lived,
+  Found_in,
+  INITCAP(Type_of_Dinosaur) AS Type_of_Dinosaur,
+  REGEXP_REPLACE(Length, r'm$', '') AS Length,
+  Taxonomy,
+  REGEXP_REPLACE(Named_By, r'\s*\(\d+\)', '') AS Named_by,
+  REGEXP_EXTRACT(Named_By, r'\((\d+)\)') AS Year,
+  INITCAP(Type_Species) AS Type_Species
+FROM
+  `nhm-dinosaurs.Dinosaur_Data.Dinosaur_Data_Table`
